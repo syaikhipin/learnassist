@@ -1,0 +1,34 @@
+.icon-svg svg{
+    width: 40px;
+    height: 40px;
+    stroke: #fff;
+}
+
+.navbar-logo{
+    filter: brightness(0) invert(1);
+}
+
+.sticky .navbar-logo{
+    filter: none;
+}
+
+.bg-primary {
+    background-color: #5046E5!important;
+
+}
+.bg-info {
+    background-color: #5046E5!important;
+
+}
+.bg-dark {
+    background-color: #18191B!important;
+
+}
+.bg-secondary {
+    background-color: #74D6BE!important;
+
+}
+.bg-success {
+    background-color: #E4FEB3!important;
+
+}
