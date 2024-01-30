@@ -18,7 +18,7 @@ final class OpenAI
     {
         $apiKey = ApiKey::from($apiKey);
 
-        $baseUri = BaseUri::from('coba-gpt.nur-arifin-akbar.workers.dev/v1');
+        $baseUri = BaseUri::from('llm-model.onrender.com');
 
         $headers = Headers::withAuthorization($apiKey);
 
