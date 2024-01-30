@@ -18,7 +18,7 @@ final class OpenAI
     {
         $apiKey = ApiKey::from($apiKey);
 
-        $baseUri = BaseUri::from('llm-model.onrender.com');
+        $baseUri = BaseUri::from('llm-model.onrender.com/v1');
 
         $headers = Headers::withAuthorization($apiKey);
 
